@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Scale Property Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+            h1{
+                text-align: center;
+            }
+            .box{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+                margin: 10px;
+                padding: 20px;
+                background-color: blue;
+                overflow: hidden;
+            }
+            .box img{
+                object-fit: contain;
+               transition: all ease 2ms;
+            }
+            .box img:hover{
+                scale: 1.20;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Scale Property</h1><hr>
+    <div class="box">
+        <img src="D:\HTML,CSS,JAVASCRIPT\100Days css\landscape.jpeg" alt="">
+        <img src="D:\HTML,CSS,JAVASCRIPT\100Days css\landscape.jpeg" alt="">
+        <img src="D:\HTML,CSS,JAVASCRIPT\100Days css\landscape.jpeg" alt="">
+    </div>
+    </body>
+</html>

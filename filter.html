@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter property</title>
+    <style>
+        h1{
+            text-align: center;
+            text-transform: capitalize;
+            color: orange;
+        }
+        .filter,.filter-2{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            margin: 100px;
+        }
+        .i1{
+            filter: blur(10px);
+        }
+        .i2{
+            filter: brightness(1px);
+        }
+        .i3{
+           filter: contrast(20%);
+        }
+        .i4{
+            filter: sepia(90%);
+        }
+        .i5{
+            filter: grayscale(50%);
+        }
+        .i6{
+            filter: invert(90%);
+        }
+        .i7{
+            filter: opacity(20%);
+        }
+        .i8{
+            filter: grayscale(100%);
+        }
+        .i8:hover{
+            filter: grayscale(0%);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Showing my different filter effects</h1><hr>
+    <div class="filter">
+        <img src="D:\HTML,CSS,JAVASCRIPT\100Days css\supra2.jpeg" class="i1" alt="">
+        <img src="D:\HTML,CSS,JAVASCRIPT\100Days css\supra2.jpeg" class="i2" alt="">
+        <img src="D:\HTML,CSS,JAVASCRIPT\100Days css\supra2.jpeg" class="i3" alt="">
+        <img src="D:\HTML,CSS,JAVASCRIPT\100Days css\supra2.jpeg " class="i4" alt="">
+    </div>
+    <div class="filter-2">
+        <img src="D:\HTML,CSS,JAVASCRIPT\100Days css\supra2.jpeg" class="i5" alt="">
+        <img src="D:\HTML,CSS,JAVASCRIPT\100Days css\supra2.jpeg" class="i6" alt="">
+        <img src="D:\HTML,CSS,JAVASCRIPT\100Days css\supra2.jpeg" class="i7" alt="">
+        <img src="D:\HTML,CSS,JAVASCRIPT\100Days css\supra2.jpeg " class="i8" alt="">
+    </div>
+    
+</body>
+</html>
