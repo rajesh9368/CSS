@@ -27,3 +27,7 @@ In this project we are able to encounter various css properties while creating a
 		"description": "boilerplate for css"	
 	},
 }
+
+	9. Specific shadow is useed  to  apply to object only rather to whole div        filter:drop-shadow(vertical,horizontal,opacity,color);
+        10. webkit_text-stroke:4px which is width of text and put color:transparent;
+	
