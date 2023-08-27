@@ -30,4 +30,5 @@ In this project we are able to encounter various css properties while creating a
 
 	9. Specific shadow is useed  to  apply to object only rather to whole div        filter:drop-shadow(vertical,horizontal,opacity,color);
         10. webkit_text-stroke:4px which is width of text and put color:transparent;
-	
+	11. Font-finder extension add this extension to your browser (left click mouse button --> font finder --> inspect) and then trace each word accordingly.
+        12.Add color-extension zilla to your current browser and then search accordingly.(  color-azile --> in address bar from right hand side 4 option --> select it a clip path type icon appears) and search accordingly. 
