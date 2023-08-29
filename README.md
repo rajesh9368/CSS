@@ -34,4 +34,7 @@ In this project we are able to encounter various css properties while creating a
         12.Add color-extension zilla to your current browser and then search accordingly.(  color-azile --> in address bar from right hand side 4 option --> select it a clip path type icon appears) and search accordingly. 
 	13.::selection(psedudo class)
         14. Javascript --> differ b/w a and b where a = numbervalue and b = stringvalue  difference in operation between (a+b=concatenation and a+ +b=sum)
+	15.Javascript -->differ of operation between == and === operator.
+        16. Scrollbar properties : body::-webkit-scrollbar{ color:transparent;}    body:-webkit-scrollbar-thumb{background:linear-gradient(red,blue,white,yellow); }
+	
 	
