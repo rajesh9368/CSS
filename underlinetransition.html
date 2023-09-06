@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+            h1{
+                position: relative;
+            }
+            h1::after{
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                height: 3px;
+                width: 0%;
+                background-color: red;
+                transition: all ease 1s;
+            }
+            h1:hover::after{
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Rajesh Kumar</h1>
+    </body>
+</html>
