@@ -38,4 +38,6 @@ In this project we are able to encounter various css properties while creating a
         16. Scrollbar properties : body::-webkit-scrollbar{ color:transparent;}    body:-webkit-scrollbar-thumb{background:linear-gradient(red,blue,white,yellow); }
 	17.Loader  making using html,css properties required border-radius:50%; border:5px solid grey; transition: rotate; @keyframes rotate{ 100%{rotate:360 deg;}}
  	18. Underline text (in nav bar transition) setting heading position to relative and heading::after{position:absolute;  left:0; bottom:0;transition:all ease 1s; height:3px;width; on hover h1:hover::after{width:100%;}
-	
+	19.Span property to apply to individuals in same elements.
+ 	20.Usage of pseudoclass elements like after before content.
+  
