@@ -40,4 +40,6 @@ In this project we are able to encounter various css properties while creating a
  	18. Underline text (in nav bar transition) setting heading position to relative and heading::after{position:absolute;  left:0; bottom:0;transition:all ease 1s; height:3px;width; on hover h1:hover::after{width:100%;}
 	19.Span property to apply to individuals in same elements.
  	20.Usage of pseudoclass elements like after before content.
+  	21.after before pseudo class elements always come after where last elements ends.
+   	22.Usage of nth-child property.
   
