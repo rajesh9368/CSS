@@ -42,4 +42,5 @@ In this project we are able to encounter various css properties while creating a
  	20.Usage of pseudoclass elements like after before content.
   	21.after before pseudo class elements always come after where last elements ends.
    	22.Usage of nth-child property.
+	23.Usage of Pseudoclass Active property.
   
